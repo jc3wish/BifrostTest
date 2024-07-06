@@ -1,6 +1,12 @@
 name: CI  
   
-on:  
+on:
+  push:  
+    branches:  
+      - 'v2.4.x'  
+  pull_request:  
+    branches:  
+      - 'v2.4.x' 
   watch:
     types: started
   
