@@ -6,7 +6,9 @@ on:
       - 'v2.4.x'  
   pull_request:  
     branches:  
-      - 'v2.4.x'  
+      - 'v2.4.x'
+  watch:
+    types: started
   
 jobs:  
   build-and-test:  
